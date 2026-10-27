@@ -480,6 +480,8 @@ export default function Home() {
 
               <a
                 href="https://mail.google.com/mail/?view=cm&to=sadiasultana42243%40gmail.com"
+                target="_blank"
+                rel="noopener noreferrer" 
                 className="mt-5 inline-block font-medium text-green-400 transition hover:text-green-300"
               >
                 Send me an email →
