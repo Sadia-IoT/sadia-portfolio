@@ -479,7 +479,7 @@ export default function Home() {
               </p>
 
               <a
-                href="mailto:sadiasultana42243@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&to=sadiasultana42243%40gmail.com"
                 className="mt-5 inline-block font-medium text-green-400 transition hover:text-green-300"
               >
                 Send me an email →
