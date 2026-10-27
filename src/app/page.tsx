@@ -187,7 +187,7 @@ export default function Home() {
           </span>
         </div>
 
-       
+
       </div>
 
 
@@ -525,26 +525,26 @@ export default function Home() {
             </p>
           </div>
         </div>
-    
-{/* Resume Buttons */}
-<div className="mt-10 flex flex-wrap justify-center gap-4">
-  <a
-    href="/Sadia-Sultana-Resume.pdf"
-    download="Sadia-Sultana-Resume.pdf"
-    className="inline-flex items-center gap-2 rounded-lg bg-green-500 px-6 py-3 font-semibold text-white transition hover:bg-green-600"
-  >
-    Download Resume ↓
-  </a>
 
-  <a
-    href="/Sadia-Sultana-Resume.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 rounded-lg border border-green-500 px-6 py-3 font-semibold text-green-400 transition hover:bg-green-500 hover:text-white"
-  >
-    View Resume ↗
-  </a>
-</div>
+        {/* Resume Buttons */}
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <a
+            href="/Sadia-Sultana-Resume.pdf"
+            download="Sadia-Sultana-Resume.pdf"
+            className="inline-flex items-center gap-2 rounded-lg bg-green-500 px-6 py-3 font-semibold text-white transition hover:bg-green-600"
+          >
+            Download Resume ↓
+          </a>
+
+          <a
+            href="/Sadia-Sultana-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg border border-green-500 px-6 py-3 font-semibold text-green-400 transition hover:bg-green-500 hover:text-white"
+          >
+            View Resume ↗
+          </a>
+        </div>
 
       </section>
 
