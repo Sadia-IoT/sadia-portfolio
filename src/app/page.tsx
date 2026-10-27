@@ -478,14 +478,16 @@ export default function Home() {
                 Have a question or job opportunity? I&apos;d love to hear from you.
               </p>
 
-              <a
-                href="https://mail.google.com/mail/?view=cm&to=sadiasultana42243%40gmail.com"
-                target="_blank"
-                rel="noopener noreferrer" 
-                className="mt-5 inline-block font-medium text-green-400 transition hover:text-green-300"
-              >
-                Send me an email →
-              </a>
+            
+<a
+  href="https://mail.google.com/mail/?view=cm&to=sadiasultana42243%40gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-5 inline-block font-medium text-green-400 transition hover:text-green-300"
+>
+  Send me an email →
+</a>
+
             </div>
 
             {/* Social Links */}
