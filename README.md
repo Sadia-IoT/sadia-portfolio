@@ -103,7 +103,7 @@ I'm open to connecting with developers, collaborating on projects, and learning 
 
 - **GitHub:** [Sadia-IoT](https://github.com/Sadia-IoT)
 - **LinkedIn:** [Sadia Sultana | LinkedIn](https://www.linkedin.com/in/sadia-sultana-eee/)
-- **Email:** [EMAIL_ADDRESS](sadiasultana42243@gmail.com)
+- **Email:** [EMAIL_ADDRESS](mailto:sadiasultana42243@gmail.com)
 
 ---
 
