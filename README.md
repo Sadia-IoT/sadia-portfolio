@@ -78,6 +78,10 @@ A web application showcasing developer technologies and projects through a struc
 
 My portfolio website showcasing my background, technical skills, and development projects.
 
+GitHub: [GitHub Repository](https://github.com/Sadia-IoT/sadia-portfolio)
+
+Live Demo: [View Project](https://sadia-portfolio-esk6n38yr-mee-ca9c.vercel.app/)
+
 - **Technologies:** Next.js, TypeScript, Tailwind CSS
 - **Source Code:** [GitHub Repository](https://github.com/Sadia-IoT/sadia-portfolio)
 
@@ -99,7 +103,7 @@ I'm open to connecting with developers, collaborating on projects, and learning 
 
 - **GitHub:** [Sadia-IoT](https://github.com/Sadia-IoT)
 - **LinkedIn:** [Sadia Sultana | LinkedIn](https://www.linkedin.com/in/sadia-sultana-eee/)
-- **Email:** [EMAIL_ADDRESS]
+- **Email:** [EMAIL_ADDRESS](sadiasultana42243@gmail.com)
 
 ---
 
