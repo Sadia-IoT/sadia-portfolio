@@ -37,11 +37,11 @@ export default function HeroSection() {
 
             {/* Headline */}
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-950 sm:text-5xl md:text-6xl">
-              Hi, I&apos;m <span className="text-emerald-700">Sadia Sultana</span>.
-              <br />
-              <span className="text-emerald-700">Learning.</span>{" "}
+             <span className="text-emerald-700">Learning.</span>{" "}
   <span>Building.</span>{" "}
-  <span className="text-emerald-700">Growing.</span>
+  <span className="text-emerald-700">Growing.</span> 
+              <br />
+              Hi, I&apos;m <span className="text-emerald-700">Sadia Sultana</span>.
             </h1>
 
             {/* Description */}
