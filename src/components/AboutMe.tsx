@@ -1,3 +1,4 @@
+
 export default function AboutMe() {
   const highlights = [
     {
@@ -27,35 +28,40 @@ export default function AboutMe() {
   ];
 
   return (
-    <section id="about" className="scroll-mt-20 border-t border-gray-100 bg-white px-6 py-20 md:px-12 md:py-28">
+    <section
+      id="about"
+      className="scroll-mt-20 border-t border-gray-100 bg-white px-6 py-20 transition-colors duration-300 dark:border-[#374239] dark:bg-[#202722] md:px-12 md:py-28"
+    >
       <div className="mx-auto max-w-6xl">
         {/* Section Header */}
         <div className="max-w-2xl">
-          <p className="text-xs font-bold uppercase tracking-widest text-emerald-700">
+          <p className="text-xs font-bold uppercase tracking-widest text-emerald-700 dark:text-[#A8BFA5]">
             Background &amp; Philosophy
           </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-950 sm:text-4xl">
+
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-950 dark:text-[#E3E9E1] sm:text-4xl">
             About Me
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
+
+          <p className="mt-4 text-base leading-relaxed text-gray-600 dark:text-[#B5C0B4] sm:text-lg">
             Engineering graduate turned Frontend Developer, bringing analytical
             precision to modern web interfaces.
           </p>
         </div>
 
-        {/* Two-column layout: Story + Highlights */}
+        {/* Story + Highlights */}
         <div className="mt-12 grid gap-12 lg:grid-cols-12 lg:items-start">
           {/* Detailed Narrative */}
-          <div className="space-y-5 text-base leading-relaxed text-gray-700 lg:col-span-7">
+          <div className="space-y-5 text-base leading-relaxed text-gray-700 dark:text-[#B5C0B4] lg:col-span-7">
             <p>
               Hello! I&apos;m{" "}
-              <strong className="font-semibold text-gray-950">
+              <strong className="font-semibold text-gray-950 dark:text-[#E3E9E1]">
                 Sadia Sultana
               </strong>
               , a Frontend Developer based in Chattogram, Bangladesh. I graduated
               with a Bachelor of Science in Electrical and Electronic Engineering
               (EEE) from the{" "}
-              <strong className="font-semibold text-gray-950">
+              <strong className="font-semibold text-gray-950 dark:text-[#E3E9E1]">
                 University of Chittagong
               </strong>
               .
@@ -73,7 +79,7 @@ export default function AboutMe() {
             <p>
               Today, I specialize in building user-friendly, responsive web
               applications using{" "}
-              <span className="font-semibold text-emerald-800">
+              <span className="font-semibold text-emerald-800 dark:text-[#A8BFA5]">
                 Next.js, React, TypeScript, and Tailwind CSS
               </span>
               . I am excited by opportunities to work on real-world projects,
@@ -81,10 +87,11 @@ export default function AboutMe() {
               thoughtful, high-impact web products.
             </p>
 
-            <div className="pt-4 flex flex-wrap items-center gap-4">
+            {/* Buttons */}
+            <div className="flex flex-wrap items-center gap-4 pt-4">
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 rounded-xl bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white shadow-xs transition hover:bg-emerald-800"
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white shadow-xs transition hover:bg-emerald-800 dark:bg-[#A8BFA5] dark:text-[#202722] dark:hover:bg-[#BBD0B8]"
               >
                 <span>Get In Touch</span>
                 <span aria-hidden="true">→</span>
@@ -94,7 +101,7 @@ export default function AboutMe() {
                 href="/Sadia-Sultana-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-800 transition hover:border-emerald-600 hover:text-emerald-700"
+                className="inline-flex items-center gap-2 rounded-xl border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-800 transition hover:border-emerald-600 hover:text-emerald-700 dark:border-[#526052] dark:text-[#D0D9CF] dark:hover:border-[#A8BFA5] dark:hover:text-[#A8BFA5]"
               >
                 <span>Download Resume (PDF)</span>
                 <span aria-hidden="true">↓</span>
@@ -102,20 +109,22 @@ export default function AboutMe() {
             </div>
           </div>
 
-          {/* Value Pillars Grid */}
+          {/* Value Pillars */}
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-5">
             {highlights.map((item) => (
               <div
                 key={item.title}
-                className="rounded-2xl border border-gray-200/80 bg-gray-50/70 p-5 transition duration-200 hover:border-emerald-200 hover:bg-emerald-50/30 hover:shadow-xs"
+                className="rounded-2xl border border-gray-200/80 bg-gray-50/70 p-5 transition duration-200 hover:border-emerald-200 hover:bg-emerald-50/30 hover:shadow-xs dark:border-[#414D43] dark:bg-[#29332D] dark:hover:border-[#789276] dark:hover:bg-[#303B34]"
               >
                 <span className="text-2xl" role="img" aria-label={item.title}>
                   {item.icon}
                 </span>
-                <h3 className="mt-3 text-base font-bold text-gray-950">
+
+                <h3 className="mt-3 text-base font-bold text-gray-950 dark:text-[#E3E9E1]">
                   {item.title}
                 </h3>
-                <p className="mt-1.5 text-xs leading-relaxed text-gray-600">
+
+                <p className="mt-1.5 text-xs leading-relaxed text-gray-600 dark:text-[#B5C0B4]">
                   {item.description}
                 </p>
               </div>

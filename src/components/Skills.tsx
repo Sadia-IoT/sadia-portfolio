@@ -1,3 +1,4 @@
+
 export default function Skills() {
   const skillCategories = [
     {
@@ -57,17 +58,22 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="scroll-mt-20 border-t border-gray-100 bg-white px-6 py-20 md:px-12 md:py-28">
+    <section
+      id="skills"
+      className="scroll-mt-20 border-t border-gray-100 bg-white px-6 py-20 transition-colors duration-300 dark:border-[#374239] dark:bg-[#202722] md:px-12 md:py-28"
+    >
       <div className="mx-auto max-w-6xl">
         {/* Section Header */}
         <div className="max-w-2xl">
-          <p className="text-xs font-bold uppercase tracking-widest text-emerald-700">
+          <p className="text-xs font-bold uppercase tracking-widest text-emerald-700 dark:text-[#A8BFA5]">
             Technical Proficiency
           </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-950 sm:text-4xl">
+
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-950 dark:text-[#E3E9E1] sm:text-4xl">
             Skills &amp; Technologies
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
+
+          <p className="mt-4 text-base leading-relaxed text-gray-600 dark:text-[#B5C0B4] sm:text-lg">
             Technologies, frameworks, and developer workflows I actively use to
             engineer responsive web applications.
           </p>
@@ -78,17 +84,19 @@ export default function Skills() {
           {skillCategories.map((group) => (
             <div
               key={group.category}
-              className="group rounded-3xl border border-gray-200 bg-white p-7 transition duration-200 hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-900/5"
+              className="group rounded-3xl border border-gray-200 bg-white p-7 transition duration-200 hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-900/5 dark:border-[#414D43] dark:bg-[#29332D] dark:hover:border-[#789276] dark:hover:shadow-none"
             >
               <div className="flex items-center gap-3">
-                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-xl text-emerald-700 transition group-hover:bg-emerald-100">
+                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-xl text-emerald-700 transition group-hover:bg-emerald-100 dark:bg-[#3A4B3D] dark:text-[#C5D9BE] dark:group-hover:bg-[#405443]">
                   {group.icon}
                 </span>
+
                 <div>
-                  <h3 className="text-lg font-bold text-gray-950">
+                  <h3 className="text-lg font-bold text-gray-950 dark:text-[#E3E9E1]">
                     {group.category}
                   </h3>
-                  <p className="text-xs text-gray-500">
+
+                  <p className="text-xs text-gray-500 dark:text-[#AAB6A9]">
                     {group.description}
                   </p>
                 </div>
@@ -98,7 +106,7 @@ export default function Skills() {
                 {group.skills.map((skill) => (
                   <span
                     key={skill.name}
-                    className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-gray-50/80 px-3 py-1.5 text-xs font-medium text-gray-800 transition hover:border-emerald-300 hover:bg-emerald-50/50 hover:text-emerald-900"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-gray-50/80 px-3 py-1.5 text-xs font-medium text-gray-800 transition hover:border-emerald-300 hover:bg-emerald-50/50 hover:text-emerald-900 dark:border-[#414D43] dark:bg-[#354038] dark:text-[#D0D9CF] dark:hover:border-[#789276] dark:hover:bg-[#3A4B3D] dark:hover:text-[#C5D9BE]"
                   >
                     <span>{skill.name}</span>
                   </span>
