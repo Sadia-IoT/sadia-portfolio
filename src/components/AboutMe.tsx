@@ -98,9 +98,8 @@ export default function AboutMe() {
               </a>
 
               <a
-                href="/Sadia-Sultana-Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/public/Sadia-sultana_resume.pdf"
+                download="Sadia-Sultana-Resume.pdf"
                 className="inline-flex items-center gap-2 rounded-xl border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-800 transition hover:border-emerald-600 hover:text-emerald-700 dark:border-[#526052] dark:text-[#D0D9CF] dark:hover:border-[#A8BFA5] dark:hover:text-[#A8BFA5]"
               >
                 <span>Download Resume (PDF)</span>

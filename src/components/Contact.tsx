@@ -182,7 +182,7 @@ export default function Contact() {
             {/* Resume Buttons */}
             <div className="mt-8 flex flex-wrap items-center gap-3 border-t border-gray-200 pt-6 dark:border-[#414D43]">
               <a
-                href="/Sadia-Sultana-Resume.pdf"
+                href="/public/Sadia-sultana_resume.pdf"
                 download="Sadia-Sultana-Resume.pdf"
                 className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-gray-200 px-4 py-3 text-xs font-semibold text-gray-800 transition hover:bg-gray-300 dark:bg-[#354038] dark:text-[#E3E9E1] dark:hover:bg-[#3A4B3D]"
               >
@@ -191,7 +191,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="/Sadia-Sultana-Resume.pdf"
+                href="/public/Sadia-sultana_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white px-4 py-3 text-xs font-semibold text-emerald-700 transition hover:border-emerald-600 hover:text-emerald-800 dark:border-[#789276] dark:bg-[#202722] dark:text-[#A8BFA5] dark:hover:border-[#A8BFA5] dark:hover:text-[#E3E9E1]"

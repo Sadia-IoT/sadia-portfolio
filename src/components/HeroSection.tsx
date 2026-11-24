@@ -12,7 +12,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-emerald-50/40 via-white to-white px-6 pt-16 pb-20 transition-colors duration-300 dark:from-[#29332D] dark:via-[#202722] dark:to-[#202722] md:px-12 md:pt-24 md:pb-28">
+    <section className="relative overflow-hidden bg-linear-to-b from-emerald-50/40 via-white to-white px-6 pt-16 pb-20 transition-colors duration-300 dark:from-[#29332D] dark:via-[#202722] dark:to-[#202722] md:px-12 md:pt-24 md:pb-28">
       {/* Decorative gradients */}
       <div
         aria-hidden="true"
@@ -85,7 +85,7 @@ export default function HeroSection() {
               </a>
 
               <a
-                href="/Sadia-Sultana-Resume.pdf"
+                href="/public/Sadia-sultana_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-dashed border-emerald-400 bg-emerald-50/50 px-5 py-3.5 text-sm font-semibold text-emerald-800 transition duration-200 hover:-translate-y-0.5 hover:bg-emerald-100/70 dark:border-[#789276] dark:bg-[#29332D] dark:text-[#BBD0B8] dark:hover:bg-[#354638]"

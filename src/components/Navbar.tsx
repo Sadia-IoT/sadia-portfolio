@@ -55,7 +55,7 @@ export default function Navbar() {
             <ThemeToggle />
 
             <a
-              href="/Sadia-Sultana-Resume.pdf"
+              href="/public/Sadia-sultana_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-lg border border-emerald-700 px-4 py-2 text-xs font-semibold text-emerald-800 transition hover:bg-emerald-50 dark:border-[#789276] dark:text-[#C5D9BE] dark:hover:bg-[#29332D]"
@@ -77,7 +77,7 @@ export default function Navbar() {
           <ThemeToggle />
 
           <a
-            href="/Sadia-Sultana-Resume.pdf"
+            href="/public/Sadia-sultana_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg border border-emerald-700 px-3 py-1.5 text-xs font-semibold text-emerald-800 dark:border-[#789276] dark:text-[#C5D9BE]"
