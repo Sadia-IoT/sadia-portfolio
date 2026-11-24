@@ -80,10 +80,9 @@ My portfolio website showcasing my background, technical skills, and development
 
 GitHub: [GitHub Repository](https://github.com/Sadia-IoT/sadia-portfolio)
 
-Live Demo: [View Project](https://sadia-portfolio-esk6n38yr-mee-ca9c.vercel.app/)
+Live Demo: [View Project](https://sadia-portfolio-murex.vercel.app/)
 
 - **Technologies:** Next.js, TypeScript, Tailwind CSS
-- **Source Code:** [GitHub Repository](https://github.com/Sadia-IoT/sadia-portfolio)
 
 ---
 
