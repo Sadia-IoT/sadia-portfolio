@@ -85,7 +85,7 @@ export default function HeroSection() {
               </a>
 
               <a
-                href="/public/Sadia-sultana_resume.pdf"
+                href="/Sadia-sultana_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-dashed border-emerald-400 bg-emerald-50/50 px-5 py-3.5 text-sm font-semibold text-emerald-800 transition duration-200 hover:-translate-y-0.5 hover:bg-emerald-100/70 dark:border-[#789276] dark:bg-[#29332D] dark:text-[#BBD0B8] dark:hover:bg-[#354638]"

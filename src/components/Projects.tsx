@@ -1,6 +1,35 @@
 
 export default function Projects() {
   const projects = [
+
+{
+  title: "MentorLagbe",
+  subtitle: "Full-Stack Tuition Marketplace",
+  category: "Education & Marketplace",
+  description:
+    "A full-stack tuition marketplace for Bangladesh where students can explore and apply for tuition opportunities, tutors can publish listings and manage applicants, and admins can moderate the platform.",
+  technologies: [
+    "Next.js 16",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS 4",
+    "Express.js",
+    "MongoDB",
+    "Better Auth",
+  ],
+  liveUrl: "https://mentorlagbe-client-cyan.vercel.app/",
+  githubUrl: "https://github.com/Sadia-IoT/mentorlagbe-client",
+  accent:
+    "bg-emerald-50 text-emerald-800 border-emerald-200 dark:bg-[#354638] dark:text-[#C5D9BE] dark:border-[#526B55]",
+  featured: true,
+  highlights: [
+    "Role-based dashboards for students, tutors and admins",
+    "Tuition search, filtering and application management",
+    "JWT-protected API and secure authentication",
+    "Stripe test-mode checkout and Pro membership features",
+  ],
+},
+
     {
       title: "Bazar Dor — বাজার দর",
       subtitle: "Bengali Market Price Tracker",
